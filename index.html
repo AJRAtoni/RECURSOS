@@ -47,7 +47,7 @@
     <div id="events" class="row">
         {% for recurso in site.recursos %}
             <div class="card" data-categoria="{{ recurso.categoria | downcase }}">
-                <a href="{{ recurso.link }}">
+                <a href="{{ recurso.url }}">
                     <img src="{{ site.baseurl }}/img/{{ recurso.imagen }}" alt="{{ recurso.title }}">
                     <div class="card-body">
                         <h2 class="recurso">{{ recurso.title }}</h2>
