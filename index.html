@@ -1,0 +1,96 @@
+---
+---
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f0f0f0">
+    <title>RECURSOS by AJRA</title>
+    <link rel="icon" type="image/x-icon" href="img/RECURSOS.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/RECURSOS.webp">
+    <meta name="description" content="RECURSOS by AJRA">
+    <meta property="og:title" content="RECURSOS by AJRA">
+    <meta property="og:description" content="Directorio de Recursos de AJRA">
+    <meta property="og:image" content="img/RECURSOS.webp">
+    <meta property="og:url" content="https://recursos.ajra.es">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <a href="https://ajra.es">
+            <img src="img/AJRA.webp" alt="AJRA" class="avatar">
+        </a>
+    </header>
+    <div class="home">
+        <img src="img/RECURSOS.webp" alt="AJRA" style="border-radius: 50%; margin-bottom: 25px;">
+        <h1>RECURSOS by AJRA</h1>
+        <h2>Bienvenido a mi directorio, donde descubrirás los recursos y herramientas No-Code que te ayudarán a crear y
+            hacer crecer tu negocio online, sin necesidad de saber nada de código.</h2>
+    </div>
+    <div class="filter-buttons">
+        <button onclick="filterResources('todos')" class="botonesfiltro">TODOS</button>
+        <button onclick="filterResources('automatizaciones')" class="botonesfiltro">AUTOMATIZACIONES</button>
+        <button onclick="filterResources('datos')" class="botonesfiltro">BASES DE DATOS</button>
+        <button onclick="filterResources('web')" class="botonesfiltro">DESARROLLO WEB</button>
+        <button onclick="filterResources('grafico')" class="botonesfiltro">DISEÑO</button>
+        <button onclick="filterResources('email')" class="botonesfiltro">EMAIL</button>
+        <button onclick="filterResources('formularios')" class="botonesfiltro">FORMULARIOS</button>
+        <button onclick="filterResources('ia')" class="botonesfiltro">INTELIGENCIA ARTIFICIAL</button>
+        <button onclick="filterResources('productividad')" class="botonesfiltro">PRODUCTIVIDAD</button>
+        <button onclick="filterResources('utilidades')" class="botonesfiltro">UTILIDADES</button>
+        <input type="text" id="searchInput" class="buscador" oninput="searchResources()" placeholder="Buscar recursos...">
+    </div>
+    <div id="events" class="row">
+        {% for recurso in site.recursos %}
+            <div class="card" data-categoria="{{ recurso.categoria | downcase }}">
+                <a href="{{ recurso.url }}">
+                    <img src="{{ site.baseurl }}/img/{{ recurso.imagen }}" alt="{{ recurso.title }}">
+                    <div class="card-body">
+                        <h2 class="recurso">{{ recurso.title }}</h2>
+                        <div class="descripcion">{{ recurso.content | strip_html }}</div>
+                    </div>
+                </a>
+            </div>
+        {% endfor %}
+    </div>    <footer>2023 &copy; Desarrollado con 🧠 & 💛 por <a href="https://ajra.es"
+            style="text-decoration: none; color: black"> &lt;/AJRA&gt; </a></footer>
+</body>
+
+</html>
+
+<script>
+    function filterResources(categoria) {
+  // Obtener todos los elementos de la clase 'card'
+  var cards = document.getElementsByClassName('card');
+  
+  // Iterar sobre cada tarjeta y mostrarla/ocultarla dependiendo de la categoría
+  for (var i = 0; i < cards.length; i++) {
+    if (categoria === 'todos' || cards[i].dataset.categoria === categoria) {
+      cards[i].style.display = '';
+    } else {
+      cards[i].style.display = 'none';
+    }
+  }
+}
+
+function searchResources() {
+  // Obtener el valor del input de búsqueda
+  var searchInput = document.getElementById('searchInput').value.toLowerCase();
+  var cards = document.getElementsByClassName('card');
+  var texto;
+
+  // Iterar sobre cada tarjeta y mostrarla/ocultarla dependiendo de la búsqueda
+  for (var i = 0; i < cards.length; i++) {
+    texto = cards[i].textContent || cards[i].innerText;
+    if (texto.toLowerCase().indexOf(searchInput) > -1) {
+      cards[i].style.display = '';
+    } else {
+      cards[i].style.display = 'none';
+    }
+  }
+}
+
+</script>

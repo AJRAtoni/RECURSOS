@@ -1,0 +1,17 @@
+title: RECURSOS
+description: Directorio de Recursos de AJRA
+url: "https://recursos.ajra.es" 
+baseurl: "" 
+
+permalink: /:title/
+
+author:
+  name: AJRA
+
+markdown: kramdown
+
+
+collections:
+  recursos:
+    output: true
+    permalink: /:collection/:name/
