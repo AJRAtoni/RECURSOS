@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "MAILERLITE"
 imagen: "MAILERLITE.webp"
 link: "https://www.mailerlite.com"

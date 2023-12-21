@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "CARRD"
 imagen: "CARRD.webp"
 link: "https://try.carrd.co/ajra"

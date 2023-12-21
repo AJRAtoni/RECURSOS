@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "SOFTR"
 imagen: "SOFTR.webp"
 link: "https://www.softr.io"

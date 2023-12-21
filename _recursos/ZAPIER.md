@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "ZAPIER"
 imagen: "ZAPIER.webp"
 link: "https://zapier.com"

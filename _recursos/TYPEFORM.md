@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "TYPEFORM"
 imagen: "TYPEFORM.webp"
 link: "https://www.typeform.com"

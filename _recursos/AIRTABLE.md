@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "AIRTABLE"
 imagen: "AIRTABLE.webp"
 link: "https://airtable.com/invite/r/dNyjObZJ"

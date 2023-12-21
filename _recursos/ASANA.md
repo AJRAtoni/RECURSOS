@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "ASANA"
 imagen: "ASANA.webp"
 link: "https://asana.com"

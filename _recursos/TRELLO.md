@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "TRELLO"
 imagen: "TRELLO.webp"
 link: "https://trello.com/"

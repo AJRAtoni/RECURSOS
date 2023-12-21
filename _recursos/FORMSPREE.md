@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "FORMSPREE"
 imagen: "FORMSPREE.webp"
 link: "https://formspree.io"

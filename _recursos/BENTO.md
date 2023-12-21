@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "BENTO.ME"
 imagen: "BENTO.webp"
 link: "https://bento.me/"

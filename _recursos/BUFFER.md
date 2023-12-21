@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "BUFFER"
 imagen: "BUFFER.webp"
 link: "https://buffer.com"

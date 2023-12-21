@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "MAKE"
 imagen: "MAKE.webp"
 link: "https://www.make.com"

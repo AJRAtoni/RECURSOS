@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "CANVA"
 imagen: "CANVA.webp"
 link: "https://partner.canva.com/ajra"

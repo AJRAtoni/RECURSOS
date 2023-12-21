@@ -15,7 +15,8 @@
     <meta property="og:description" content="Directorio de Recursos de AJRA">
     <meta property="og:image" content="img/RECURSOS.webp">
     <meta property="og:url" content="https://recursos.ajra.es">
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="d475f634-84bb-448f-9a73-b0576d734398" async></script>
 </head>
 
 <body>
@@ -25,7 +26,7 @@
         </a>
     </header>
     <div class="home">
-        <img src="img/RECURSOS.webp" alt="AJRA" style="border-radius: 50%; margin-bottom: 25px;">
+        <img src="img/RECURSOS.webp" alt="RECURSOS" style="border-radius: 50%; margin-bottom: 25px;">
         <h1>RECURSOS by AJRA</h1>
         <h2>Bienvenido a mi directorio, donde descubrirás los recursos y herramientas No-Code que te ayudarán a crear y
             hacer crecer tu negocio online, sin necesidad de saber nada de código.</h2>
@@ -63,10 +64,8 @@
 
 <script>
     function filterResources(categoria) {
-  // Obtener todos los elementos de la clase 'card'
   var cards = document.getElementsByClassName('card');
   
-  // Iterar sobre cada tarjeta y mostrarla/ocultarla dependiendo de la categoría
   for (var i = 0; i < cards.length; i++) {
     if (categoria === 'todos' || cards[i].dataset.categoria === categoria) {
       cards[i].style.display = '';
@@ -77,12 +76,10 @@
 }
 
 function searchResources() {
-  // Obtener el valor del input de búsqueda
   var searchInput = document.getElementById('searchInput').value.toLowerCase();
   var cards = document.getElementsByClassName('card');
   var texto;
 
-  // Iterar sobre cada tarjeta y mostrarla/ocultarla dependiendo de la búsqueda
   for (var i = 0; i < cards.length; i++) {
     texto = cards[i].textContent || cards[i].innerText;
     if (texto.toLowerCase().indexOf(searchInput) > -1) {

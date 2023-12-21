@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "CONVERTIO"
 imagen: "CONVERTIO.webp"
 link: "http://convertio.co"

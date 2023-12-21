@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "I LOVE PDF"
 imagen: "ILOVEPDF.webp"
 link: "https://www.ilovepdf.com"

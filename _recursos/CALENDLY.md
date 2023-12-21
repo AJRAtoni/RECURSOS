@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "CALENDLY"
 imagen: "CALENDLY.webp"
 link: "https://calendly.com"

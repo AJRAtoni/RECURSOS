@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "LOOM"
 imagen: "LOOM.webp"
 link: "https://www.loom.com"

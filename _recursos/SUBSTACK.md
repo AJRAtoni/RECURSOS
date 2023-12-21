@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "SUBSTACK"
 imagen: "SUBSTACK.webp"
 link: "https://substack.com/"

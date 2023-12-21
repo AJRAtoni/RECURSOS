@@ -1,4 +1,5 @@
 ---
+layout: recurso
 title: "CARRD"
 imagen: "CHATGPT.webp"
 link: "http://chat.openai.com"
