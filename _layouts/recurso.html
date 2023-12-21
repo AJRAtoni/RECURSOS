@@ -20,7 +20,7 @@
 <body>
     <header>
         <a href="{{ site.url | relative_url }}">
-            <img src="{{ 'img/AJRA.webp' | relative_url }}" alt="AJRA" class="avatar">
+            <img src="{{ 'img/RECURSOS.webp' | relative_url }}" alt="AJRA" class="avatar">
         </a>
     </header>
     <div class="post-cabecera">
@@ -28,7 +28,7 @@
         {% if page.imagen %}
             <img src="{{ page.imagen | relative_url }}"  class="post-image">
         {% else %}
-            <img src="{{ 'img/placeholder.webp' | relative_url }}" class="post-image">
+            <img src="/{{ 'img/placeholder.webp' | relative_url }}" class="post-image">
         {% endif %}
     </div>
     <div class="content">
