@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f0f0f0;
     overflow-x: hidden;
+    margin: 10px;
 }
 
 .home {
