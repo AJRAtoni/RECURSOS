@@ -4,6 +4,7 @@ title: "TYPEFORM"
 imagen: "TYPEFORM.webp"
 link: "https://www.typeform.com"
 categoria: "FORMULARIOS"
+descripcion-corta: "Cree encuestas y formularios interactivos con Typeform."
 ---
 
 Typeform redefine la experiencia de creación y respuesta de formularios en línea.

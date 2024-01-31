@@ -4,6 +4,7 @@ title: "CANVA"
 imagen: "CANVA.webp"
 link: "https://partner.canva.com/ajra"
 categoria: "GRAFICO"
+descripcion-corta: "Crea contenidos visuales con Canva."
 ---
 
 Canva es una plataforma de diseño gráfico, pensada para democratizar la creación de contenidos visuales. 

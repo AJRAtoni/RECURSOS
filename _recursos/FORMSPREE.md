@@ -4,6 +4,7 @@ title: "FORMSPREE"
 imagen: "FORMSPREE.webp"
 link: "https://formspree.io"
 categoria: "FORMULARIOS"
+descripcion-corta: "Crea tus formularios de contacto con Formspree."
 ---
 
 Formspree es una solución para quien que buscan integrar formularios de contacto en sus páginas web sin complicaciones técnicas. 

@@ -4,6 +4,7 @@ title: "MAKE"
 imagen: "MAKE.webp"
 link: "https://www.make.com"
 categoria: "AUTOMATIZACIONES"
+descripcion-corta: "Crea y automatiza procesos con Make."
 ---
 
 Make es una plataforma diseñada para la creación y automatización de procesos de manera visual. 

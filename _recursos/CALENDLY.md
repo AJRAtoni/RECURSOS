@@ -4,6 +4,7 @@ title: "CALENDLY"
 imagen: "CALENDLY.webp"
 link: "https://calendly.com"
 categoria: "UTILIDADES"
+descripcion-corta: "Calendly simplifica y optimiza el proceso de coordinación de reuniones."
 ---
 
 Calendly es una herramienta líder en la gestión de agendas y programación de encuentros, diseñada para simplificar y optimizar el proceso de coordinación de reuniones. 

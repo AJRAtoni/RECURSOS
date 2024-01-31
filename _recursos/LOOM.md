@@ -4,6 +4,7 @@ title: "LOOM"
 imagen: "LOOM.webp"
 link: "https://www.loom.com"
 categoria: "UTILIDADES"
+descripcion-corta: "Crea contenidos interactivos con Loom."
 ---
 
 I Love PDF es una plataforma integral en línea diseñada para facilitar la gestión y edición de documentos PDF. 

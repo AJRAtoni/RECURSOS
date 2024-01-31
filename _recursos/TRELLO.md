@@ -4,6 +4,7 @@ title: "TRELLO"
 imagen: "TRELLO.webp"
 link: "https://trello.com/"
 categoria: "PRODUCTIVIDAD"
+descripcion-corta: "Organiza tus proyectos con Trello."
 ---
 
 Trello es una herramienta de gestión de proyectos que utiliza el método Kanban. Es ideal para organizar tareas, proyectos y equipos de forma visual. 

@@ -4,6 +4,7 @@ title: "SOFTR"
 imagen: "SOFTR.webp"
 link: "https://www.softr.io"
 categoria: "WEB"
+descripcion-corta: "Crear páginas web a partir de tus datos con Softr."
 ---
 
 Softr es una plataforma que actúa como un puente entre tus datos y el mundo digital. 

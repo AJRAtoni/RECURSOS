@@ -4,6 +4,7 @@ title: "I LOVE PDF"
 imagen: "ILOVEPDF.webp"
 link: "https://www.ilovepdf.com"
 categoria: "UTILIDADES"
+descripcion-corta: "Administra y edita tus archivos PDF con I Love PDF."
 ---
 
 I Love PDF es una plataforma integral en línea diseñada para facilitar la gestión y edición de documentos PDF. 

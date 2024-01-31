@@ -4,6 +4,7 @@ title: "CONVERTIO"
 imagen: "CONVERTIO.webp"
 link: "http://convertio.co"
 categoria: "UTILIDADES"
+descripcion-corta: "Convertido tus archivos en línea con Convertio."
 ---
 
 Convertio es una plataforma líder en la conversión de archivos en línea.

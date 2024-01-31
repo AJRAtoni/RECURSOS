@@ -4,6 +4,8 @@ title: "ASANA"
 imagen: "ASANA.webp"
 link: "https://asana.com"
 categoria: "PRODUCTIVIDAD"
+descripcion-corta: "Asana organiza y optimiza tu colaboración en el trabajo."
+
 ---
 
 Asana es una herramienta de gestión de tareas y proyectos diseñada para optimizar la colaboración y eficiencia de tu equipo de trabajo.

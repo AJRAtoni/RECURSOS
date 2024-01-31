@@ -4,6 +4,7 @@ title: "SUBSTACK"
 imagen: "SUBSTACK.webp"
 link: "https://substack.com/"
 categoria: "EMAIL"
+descripcion-corta: "Crear y distribuir newsletter con Substack."
 ---
 
 Substack se presenta como la solución ideal para aquellos apasionados por compartir contenidos y construir una audiencia leal. 

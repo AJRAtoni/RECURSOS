@@ -4,6 +4,7 @@ title: "CARRD"
 imagen: "CHATGPT.webp"
 link: "http://chat.openai.com"
 categoria: "IA"
+descripcion-corta: "ChatGPT genera contenido y brinda soluciones en tiempo real."
 ---
 
 ChatGPT es un asistente virtual impulsado por inteligencia artificial.
