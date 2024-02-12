@@ -1,6 +1,6 @@
 ---
 layout: recurso
-title: "CARRD"
+title: "CHATGPT"
 imagen: "CHATGPT.webp"
 link: "http://chat.openai.com"
 categoria: "IA"
