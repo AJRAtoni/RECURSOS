@@ -50,6 +50,27 @@ footer {
     line-height: 2rem;
 }
 
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Ajusta el margen superior según necesites */
+}
+
+.probar-button {
+    display: inline-block;
+    background-color: #6c29f0;
+    color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.probar-button:hover {
+    background-color: #5e10fb;
+}
+
+
 
 
 @media (max-width: 768px) {
