@@ -1,102 +1,110 @@
 body {
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    margin: 10px;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin: 10px;
 }
-a {color: #aa33cc;}
-a:hover {color: #0d6efd;}
+a {
+  color: #aa33cc;
+}
+a:hover {
+  color: #0d6efd;
+}
 
 .avatar {
-    max-width: 75px;
-    height: auto;
-    padding: 2rem;
-    border-radius: 50%;
-    transition: transform 0.5s ease-in-out;
+  max-width: 75px;
+  height: auto;
+  padding: 2rem;
+  border-radius: 50%;
+  transition: transform 0.5s ease-in-out;
 }
 .post-cabecera {
-    max-width: 850px;
-    margin: auto;
+  max-width: 850px;
+  margin: auto;
 }
 .content {
-    max-width: 650px;
-    margin: auto;
-    padding-bottom: 5rem;
+  max-width: 650px;
+  margin: auto;
+  padding-bottom: 5rem;
 }
 .post-title {
-    font-size: 3rem;
-    line-height: 1.07143;
-    font-weight: 700;
-    letter-spacing: -.005em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    text-align: center;
+  font-size: 3rem;
+  line-height: 1.07143;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  text-align: center;
 }
 .post-image {
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 1.5rem;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 1.5rem;
 }
 p {
-    font-size: 19px;
-    line-height: 1.4211;
-    font-weight: 400;
-    letter-spacing: .012em;
-    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    margin-bottom: 1.4211em;
+  font-size: 19px;
+  line-height: 1.4211;
+  font-weight: 400;
+  letter-spacing: 0.012em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-bottom: 1.4211em;
 }
-img {max-width: 100%;}
-hr {margin: 4rem 0;}
+img {
+  max-width: 100%;
+}
+hr {
+  margin: 4rem 0;
+}
 footer {
-    text-align: center;
-    font-size: 13px;
-    line-height: 2rem;
+  text-align: center;
+  font-size: 13px;
+  line-height: 2rem;
 }
 
 .button-container {
-    text-align: center;
-    margin-top: 20px; /* Ajusta el margen superior según necesites */
+  text-align: center;
+  margin-top: 20px;
 }
 
 .probar-button {
-    display: inline-block;
-    background-color: #6c29f0;
-    color: #ffffff;
-    padding: 1rem;
-    text-decoration: none;
-    border-radius: 0.5rem;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  display: inline-block;
+  background-color: #6c29f0;
+  color: #ffffff;
+  padding: 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .button-container .probar-button:hover {
-    color: white;
-    background-color: #5e10fb;
+  color: white;
+  background-color: #5e10fb;
 }
 
-
-
-
 @media (max-width: 768px) {
-    .avatar {
-        max-width: 75px;
-        height: auto;
-        padding: 2rem 0;
-        border-radius: 50%;
-        transition: transform 0.5s ease-in-out;
-    }
-    .post-cabecera {
-        max-width: 100%;
-    }
-    .post-title {
-        font-size: 32px;
-        line-height: 1.125;
-        letter-spacing: .004em;
-        margin: 1.5rem;
-    }
-    .content {
-        margin: 0 1.5rem;
-    }
-    p {
-        font-size: 17px;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .avatar {
+    max-width: 75px;
+    height: auto;
+    padding: 2rem 0;
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+  }
+  .post-cabecera {
+    max-width: 100%;
+  }
+  .post-title {
+    font-size: 32px;
+    line-height: 1.125;
+    letter-spacing: 0.004em;
+    margin: 1.5rem;
+  }
+  .content {
+    margin: 0 1.5rem;
+  }
+  p {
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
