@@ -4,7 +4,7 @@ title: "ZOOM"
 imagen: "ZOOM.webp"
 link: "https://www.zoom.us"
 categoria: "COMUNICACION"
-descripcion-corta: "Zoom redefine las reuniones en línea con soluciones de comunicación sencillas y confiables."
+descripcion-corta: "Zoom redefine las videollamadas con soluciones sencillas y confiables."
 ---
 
 Zoom es una plataforma líder en comunicaciones de video que proporciona soluciones de reuniones en línea, chat y colaboración móvil. Con su fácil uso y alta fiabilidad, Zoom permite a individuos y empresas de todo el mundo conectarse de manera efectiva, independientemente de su ubicación. 

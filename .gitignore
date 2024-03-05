@@ -1,3 +1,6 @@
 
 .vscode/settings.json
 .DS_Store
+.frontmatter/database/taxonomyDb.json
+.DS_Store
+img/.DS_Store
