@@ -4,7 +4,7 @@ title: "SHOPIFY"
 imagen: "SHOPIFY.webp"
 link: "https://www.shopify.com"
 categoria: "WEB"
-descripcion-corta: "Crea y gestiona tu tienda en línea con Shopify."
+descripcion-corta: "Crea y gestiona tu tienda online con Shopify."
 ---
 
 Shopify es una plataforma líder de comercio electrónico diseñada para proporcionar a los emprendedores y empresas de todos los tamaños las herramientas necesarias para crear y gestionar tiendas en línea de manera eficaz.  

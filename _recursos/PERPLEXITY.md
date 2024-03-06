@@ -4,7 +4,7 @@ title: "PERPLEXITY"
 imagen: "PERPLEXITY.webp"
 link: "https://www.perplexity.ai"
 categoria: "INTELIGENCIA ARTIFICIAL"
-descripcion-corta: "Perplexity desbloquea insights con avanzada IA para análisis de datos."
+descripcion-corta: "Desbloquea insights con avanzada IA para análisis de datos."
 ---
 
 Perplexity es una innovadora plataforma de inteligencia artificial que proporciona soluciones avanzadas de análisis de datos para empresas y organizaciones. Utilizando algoritmos de aprendizaje automático y procesamiento de lenguaje natural, Perplexity ayuda a descubrir patrones, tendencias y insights valiosos a partir de grandes volúmenes de datos.

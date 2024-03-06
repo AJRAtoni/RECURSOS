@@ -4,7 +4,7 @@ title: "ZCAL"
 imagen: "ZCAL.webp"
 link: "https://zcal.co/"
 categoria: "UTILIDADES"
-descripcion-corta: "Zcal simplifica la programación de reuniones."
+descripcion-corta: "La forma mas facil de programar tus reuniones."
 ---
 
 Zcal es una herramienta de programación de reuniones diseñada para hacer que el proceso de coordinar encuentros sea más eficiente y menos tedioso. 

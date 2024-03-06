@@ -4,7 +4,7 @@ title: "BUFFER"
 imagen: "BUFFER.webp"
 link: "https://buffer.com"
 categoria: "UTILIDADES"
-descripcion-corta: "Programa tus publicaciones en redes sociales con Buffer."
+descripcion-corta: "Programa tus publicaciones en redes sociales."
 ---
 
 Buffer es una plataforma para la gestión y programación de contenidos en redes sociales. 

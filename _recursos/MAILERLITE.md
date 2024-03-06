@@ -4,7 +4,7 @@ title: "MAILERLITE"
 imagen: "MAILERLITE.webp"
 link: "https://www.mailerlite.com"
 categoria: "EMAIL"
-descripcion-corta: "MailerLite simplifica y optimiza tus campañas de correo electrónico."
+descripcion-corta: "Simplifica y optimiza tus campañas de correo electrónico."
 ---
 
 MailerLite es una plataforma de email marketing, diseñada específicamente para ofrecer una experiencia sencilla y directa a sus usuarios. 

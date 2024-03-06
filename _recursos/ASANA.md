@@ -4,7 +4,7 @@ title: "ASANA"
 imagen: "ASANA.webp"
 link: "https://asana.com"
 categoria: "PRODUCTIVIDAD"
-descripcion-corta: "Asana organiza y optimiza tu colaboración en el trabajo."
+descripcion-corta: "Organiza y optimiza tu colaboración en el trabajo."
 
 ---
 

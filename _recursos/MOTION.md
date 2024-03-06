@@ -4,7 +4,7 @@ title: "MOTION"
 imagen: "MOTION.webp"
 link: "https://www.usemotion.com/"
 categoria: "PRODUCTIVIDAD"
-descripcion-corta: "Motion automatiza tu planificación diaria y maximiza tu productividad."
+descripcion-corta: "Automatiza tu planificación diaria y maximiza tu productividad."
 ---
 
 Motion es una herramienta de productividad que ofrece una solución innovadora para la planificación y gestión del tiempo. Mediante el uso de inteligencia artificial, Motion ayuda a organizar automáticamente tu día, integrando tareas, reuniones y eventos en un calendario optimizado para evitar el sobrecupo y maximizar la eficiencia.

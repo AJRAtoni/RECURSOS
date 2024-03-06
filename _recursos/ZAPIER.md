@@ -4,7 +4,7 @@ title: "ZAPIER"
 imagen: "ZAPIER.webp"
 link: "https://zapier.com"
 categoria: "AUTOMATIZACIONES"
-descripcion-corta: "Zapier simplifica tu automatización y aumenta tu eficiencia."
+descripcion-corta: "Automatizalo todo con Zapier y aumenta tu eficiencia."
 ---
 
 Zapier se destaca como la herramienta por excelencia en el mundo de la automatización.

@@ -4,7 +4,7 @@ title: "KLAVIYO"
 imagen: "KLAVIYO.webp"
 link: "https://www.klaviyo.com"
 categoria: "EMAIL"
-descripcion-corta: "Klaviyo potencia tu Email Marketing con datos."
+descripcion-corta: "Potencia tus campañas de Email Marketing con datos."
 ---
 
 Klaviyo es una plataforma de automatización de marketing por email y SMS que aprovecha tus datos para ayudarte a crear campañas de marketing más efectivas. 
