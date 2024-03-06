@@ -73,8 +73,8 @@ footer {
   padding: 1rem;
   text-decoration: none;
   border-radius: 0.5rem;
-  font-weight: bold;
   transition: background-color 0.3s;
+  letter-spacing: 0.7px;
 }
 
 .button-container .probar-button:hover {
