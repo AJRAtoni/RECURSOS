@@ -1,7 +1,7 @@
 ---
 layout: recurso
 title: "CLAUDE"
-imagen: "CLAUDE.png"
+imagen: "CLAUDE.webp"
 link: "https://www.anthropic.com/claude"
 categoria: "INTELIGENCIA ARTIFICIAL"
 descripcion-corta: "Tu asistente de inteligencia artifical. 
