@@ -3,7 +3,7 @@ layout: recurso
 title: "ELEVENLABS"
 imagen: "ELEVENLABS.webp"
 link: "https://elevenlabs.io"
-categoria: "INTELIGENCIA ARTIFICIAL"
+categoria: "IA"
 descripcion-corta: "Plataforma de generación de voz por inteligencia artificial."
 ---
 

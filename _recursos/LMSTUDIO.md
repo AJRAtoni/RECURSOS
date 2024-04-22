@@ -3,7 +3,7 @@ layout: recurso
 title: "LM STUDIO"
 imagen: "LMSTUDIO.webp"
 link: "http://lmstudio.ai"
-categoria: "INTELIGENCIA ARTIFICIAL"
+categoria: "IA"
 descripcion-corta: "Tu IA en local. Descubre, descarga y ejecuta LLM en local."
 ---
 

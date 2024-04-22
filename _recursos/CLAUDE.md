@@ -3,7 +3,7 @@ layout: recurso
 title: "CLAUDE"
 imagen: "CLAUDE.webp"
 link: "https://www.anthropic.com/claude"
-categoria: "INTELIGENCIA ARTIFICIAL"
+categoria: "IA"
 descripcion-corta: "Tu asistente de inteligencia artifical. 
 Rápido, capaz y verdaderamente conversacional."
 ---
