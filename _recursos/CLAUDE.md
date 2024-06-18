@@ -4,8 +4,7 @@ title: "CLAUDE"
 imagen: "CLAUDE.webp"
 link: "https://www.anthropic.com/claude"
 categoria: "IA"
-descripcion-corta: "Tu asistente de inteligencia artifical. 
-Rápido, capaz y verdaderamente conversacional."
+descripcion-corta: "Tu asistente de inteligencia artifical. Rápido, capaz y verdaderamente conversacional."
 ---
 
 Claude es una poderosa inteligencia artificial desarrollada por Anthropic. Alimentada por técnicas de vanguardia en aprendizaje profundo y procesamiento del lenguaje natural (NLP), Claude sobresale en tareas como la generación de texto coherente, la traducción automática y la comprensión del lenguaje humano.
