@@ -1,9 +1,9 @@
 ---
 layout: recurso
-title: "Ollama"
+title: "OLLAMA"
 imagen: "ollama.webp"
 link: "https://ollama.com"
-categoria: "INTELIGENCIA ARTIFICIAL"
+categoria: "IA"
 descripcion-corta: "Ejecuta modelos de IA como Llama en tu ordenador de forma sencilla."
 ---
 
