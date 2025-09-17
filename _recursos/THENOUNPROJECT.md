@@ -1,6 +1,6 @@
 ---
 layout: recurso
-title: "The Noun Project"
+title: "THE NOUN PROJECT"
 imagen: "THENOUNPROJECT.webp"
 link: "https://thenounproject.com/icons/"
 categoria: "GRAFICO"
