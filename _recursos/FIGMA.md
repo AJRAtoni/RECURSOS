@@ -3,7 +3,7 @@ layout: recurso
 title: "FIGMA"
 imagen: "FIGMA.webp"
 link: "https://www.figma.com"
-categoria: "DISEÑO"
+categoria: "GRAFICO"
 descripcion-corta: "Diseño gráfico colaborativo en la nube."
 ---
 

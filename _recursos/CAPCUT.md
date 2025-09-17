@@ -3,7 +3,7 @@ layout: recurso
 title: "CAPCUT"
 imagen: "CAPCUT.webp"
 link: "https://www.capcut.com"
-categoria: "DISEÑO"
+categoria: "GRAFICO"
 descripcion-corta: "Edición de video intuitiva y accesible desde cualquier lugar."
 ---
 
