@@ -3,7 +3,7 @@ layout: recurso
 title: "AIRTABLE"
 imagen: "AIRTABLE.webp"
 link: "https://airtable.com/invite/r/dNyjObZJ"
-categoria: "DATOS"
+categoria: "PRODUCTIVIDAD"
 descripcion-corta: "Simplifica y organiza tus datos."
 ---
 
