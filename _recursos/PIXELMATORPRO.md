@@ -1,7 +1,7 @@
 ---
 layout: recurso
 title: "PIXELMATOR PRO"
-imagen: "PIXELMATORPRO.webp"
+imagen: "PIXELMATOR.webp"
 link: "https://www.pixelmator.com/pro/"
 categoria: "DISEÑO"
 descripcion-corta: "Editor de imágenes profesional para Mac con herramientas avanzadas."
