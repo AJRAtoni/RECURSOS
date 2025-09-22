@@ -2,7 +2,7 @@
 layout: recurso
 title: "PERPLEXITY"
 imagen: "PERPLEXITY.webp"
-link: "https://www.perplexity.ai"
+link: "https://perplexity.ai/pro?referral_code=O1XECR7L"
 categoria: "IA"
 descripcion-corta: "Desbloquea insights con avanzada IA para análisis de datos."
 ---
