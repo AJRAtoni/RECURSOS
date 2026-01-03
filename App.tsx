@@ -7,9 +7,9 @@ import { ResourceDetail } from './components/ResourceDetail';
 // --- CONFIGURACIÓN DE BRANDING ---
 const BRAND_AJRA_URL = "https://raw.githubusercontent.com/AJRAtoni/RECURSOS/5b602e2c3edf6f011e68a7187c94d7d19b30bbef/img/AJRA.webp";
 const BRAND_RECURSOS_URL = "https://raw.githubusercontent.com/AJRAtoni/RECURSOS/1028882a4215d3f1f8c4237caf7f91b1c3feb693/img/RECURSOSbyAJRA.webp";
+const HERO_ICON_URL = "/Images/RECURSOS-ICON.SVG";
 
 const AVATAR_URL = BRAND_AJRA_URL;
-const HERO_IMAGE_URL = BRAND_RECURSOS_URL;
 
 const App: React.FC = () => {
   const [resources, setResources] = useState<Resource[]>([]);
@@ -20,7 +20,6 @@ const App: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState('TODOS');
 
   const [avatarError, setAvatarError] = useState(false);
-  const [heroError, setHeroError] = useState(false);
 
   // --- DINÁMICA DE METADATOS ---
   useEffect(() => {
@@ -183,18 +182,13 @@ const App: React.FC = () => {
           <header className="max-w-6xl mx-auto px-4 text-center pt-2">
             <div className="flex justify-center mb-8">
               <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl transition-all duration-700 ease-out transform hover:scale-[1.03] flex items-center justify-center bg-white">
-                {!heroError ? (
+                <div className="w-full h-full ajra-gradient flex items-center justify-center p-6">
                   <img
-                    src={HERO_IMAGE_URL}
+                    src={HERO_ICON_URL}
                     alt="RECURSOS"
-                    onError={() => setHeroError(true)}
-                    className="w-full h-full object-cover"
+                    className="w-28 h-28 md:w-36 md:h-36 object-contain"
                   />
-                ) : (
-                  <div className="w-full h-full ajra-gradient flex flex-col items-center justify-center text-white p-6">
-                    <span className="font-black text-2xl tracking-tighter">RECURSOS by AJRA</span>
-                  </div>
-                )}
+                </div>
               </div>
             </div>
 
