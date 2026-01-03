@@ -9,7 +9,7 @@ interface ResourceDetailProps {
   onResourceClick: (resource: Resource) => void;
 }
 
-const PLACEHOLDER_BG = 'https://raw.githubusercontent.com/AJRAtoni/RECURSOS/1028882a4215d3f1f8c4237caf7f91b1c3feb693/img/recurso.webp';
+const PLACEHOLDER_BG = '/images/recurso.webp';
 export const ResourceDetail: React.FC<ResourceDetailProps> = ({ resource, allResources, onBack, onResourceClick }) => {
   const [copied, setCopied] = useState(false);
   const [headerHeight, setHeaderHeight] = useState<number | null>(null);

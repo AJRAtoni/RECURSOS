@@ -19,7 +19,7 @@ const App: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [activeCategory, setActiveCategory] = useState('TODOS');
 
-  const [avatarError, setAvatarError] = useState(false);
+
 
   // --- DINÁMICA DE METADATOS ---
   useEffect(() => {
@@ -156,24 +156,13 @@ const App: React.FC = () => {
     <div className="min-h-screen bg-[#F3F4F6] transition-colors duration-500">
       {/* Top Left Logo/Avatar - Cambia según la vista */}
       <div className="p-6">
-        <div
+        <img
+          key={view}
+          src={currentTopLogo}
+          alt={view === 'detail' ? "Logo Recursos" : "Logo AJRA"}
           onClick={handleBack}
-          className="w-12 h-12 rounded-full overflow-hidden cursor-pointer hover:scale-110 transition-transform flex items-center justify-center bg-white shadow-sm border border-gray-100"
-        >
-          {!avatarError ? (
-            <img
-              key={view} // Forzar re-renderizado al cambiar de vista para aplicar el nuevo logo suavemente
-              src={currentTopLogo}
-              alt={view === 'detail' ? "Logo Recursos" : "Logo AJRA"}
-              onError={() => setAvatarError(true)}
-              className="w-full h-full object-cover"
-            />
-          ) : (
-            <div className="w-full h-full bg-violet-600 flex items-center justify-center text-white font-black text-xs">
-              {view === 'detail' ? 'R' : 'AJRA'}
-            </div>
-          )}
-        </div>
+          className="w-12 h-12 rounded-full cursor-pointer hover:scale-110 transition-transform shadow-sm border border-gray-100 bg-white object-cover"
+        />
       </div>
 
       {view === 'grid' ? (
@@ -181,7 +170,7 @@ const App: React.FC = () => {
           {/* Centered Hero Section */}
           <header className="max-w-6xl mx-auto px-4 text-center pt-2">
             <div className="flex justify-center mb-8">
-              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl transition-all duration-700 ease-out transform hover:scale-[1.03] flex items-center justify-center bg-white border-4 border-white">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl transition-all duration-700 ease-out transform hover:scale-[1.03] flex items-center justify-center">
                 <div className="w-full h-full ajra-gradient flex items-center justify-center p-2">
                   <img
                     src={HERO_ICON_URL}
