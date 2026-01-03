@@ -171,10 +171,11 @@ export const ResourceDetail: React.FC<ResourceDetailProps> = ({ resource, allRes
             ref={imageContainerRef}
             className="relative rounded-3xl overflow-hidden shadow-2xl shadow-slate-200 border border-slate-100 bg-white aspect-video"
           >
-            <img
-              src={PLACEHOLDER_BG}
-              alt="Background"
-              className="w-full h-full object-cover block"
+            <div
+              className="w-full h-full"
+              style={{
+                background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 65%, #ff00a8 100%)',
+              }}
             />
             {hasCustomLogo && (
               <div className="absolute inset-0 flex items-center justify-center">
