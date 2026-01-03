@@ -1,8 +1,8 @@
 import { Resource, AirtableRecord } from '../types';
 
-const AIRTABLE_API_KEY = 'patATNCXiCDYHjiuG.810b9add3e762d2613d1f40a19bb0a24abaac9fd92658ebc9d8009d00d18940f';
-const BASE_ID = 'appmQJGDeTmJzBRIT';
-const TABLE_NAME = 'Recursos';
+const AIRTABLE_API_KEY = import.meta.env.VITE_AIRTABLE_API_KEY;
+const BASE_ID = import.meta.env.VITE_AIRTABLE_BASE_ID;
+const TABLE_NAME = import.meta.env.VITE_AIRTABLE_TABLE_NAME || 'Recursos';
 
 const DEFAULT_RESOURCE_IMAGE = 'https://raw.githubusercontent.com/AJRAtoni/RECURSOS/64c1208596f96ea6df1f2ea23ae52f2dc9490852/img/recurso.webp';
 
