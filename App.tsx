@@ -5,9 +5,9 @@ import { ResourceCard } from './components/ResourceCard';
 import { ResourceDetail } from './components/ResourceDetail';
 
 // --- CONFIGURACIÓN DE BRANDING ---
-const BRAND_AJRA_URL = "https://raw.githubusercontent.com/AJRAtoni/RECURSOS/5b602e2c3edf6f011e68a7187c94d7d19b30bbef/img/AJRA.webp";
-const BRAND_RECURSOS_URL = "https://raw.githubusercontent.com/AJRAtoni/RECURSOS/1028882a4215d3f1f8c4237caf7f91b1c3feb693/img/RECURSOSbyAJRA.webp";
-const HERO_ICON_URL = "/Images/RECURSOS-ICON.SVG";
+const BRAND_AJRA_URL = "/images/AJRA.webp";
+const BRAND_RECURSOS_URL = "/images/RECURSOS-ICON.png";
+const HERO_ICON_URL = "/images/RECURSOS-ICON.svg";
 
 const AVATAR_URL = BRAND_AJRA_URL;
 
