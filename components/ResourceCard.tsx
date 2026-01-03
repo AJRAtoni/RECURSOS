@@ -18,11 +18,12 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource, onClick })
       className="group bg-white rounded-xl overflow-hidden cursor-pointer flex flex-col h-full shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100"
     >
       <div className="relative aspect-video overflow-hidden bg-slate-100">
-        {/* Capa 1: Fondo (Placeholder siempre visible) */}
-        <img 
-          src={PLACEHOLDER_BG} 
-          alt="Background"
-          className="w-full h-full object-cover"
+        {/* Capa 1: Fondo con degradado (Placeholder siempre visible) */}
+        <div
+          className="w-full h-full"
+          style={{
+            background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 75%, #e914fb 100%)',
+          }}
         />
         
         {/* Capa 2: Logo centrado con proporción fija (50% del contenedor) */}
