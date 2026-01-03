@@ -181,12 +181,12 @@ const App: React.FC = () => {
           {/* Centered Hero Section */}
           <header className="max-w-6xl mx-auto px-4 text-center pt-2">
             <div className="flex justify-center mb-8">
-              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl transition-all duration-700 ease-out transform hover:scale-[1.03] flex items-center justify-center bg-white">
-                <div className="w-full h-full ajra-gradient flex items-center justify-center p-6">
+              <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden shadow-2xl transition-all duration-700 ease-out transform hover:scale-[1.03] flex items-center justify-center bg-white border-4 border-white">
+                <div className="w-full h-full ajra-gradient flex items-center justify-center p-2">
                   <img
                     src={HERO_ICON_URL}
                     alt="RECURSOS"
-                    className="w-28 h-28 md:w-36 md:h-36 object-contain"
+                    className="w-full h-full object-contain"
                   />
                 </div>
               </div>
