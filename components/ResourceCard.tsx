@@ -22,7 +22,7 @@ export const ResourceCard: React.FC<ResourceCardProps> = ({ resource, onClick })
         <div
           className="w-full h-full"
           style={{
-            background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 80%, #e914fb 100%)',
+            background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 75%, #e914fb 100%)',
           }}
         />
         
