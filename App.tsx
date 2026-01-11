@@ -62,17 +62,17 @@ const App: React.FC = () => {
     }
   }, [selectedResource, view]);
 
-  // Función para obtener el recurso desde el hash
-  const getResourceFromHash = (data: Resource[]) => {
-    const hash = window.location.hash.replace('#', '');
-    if (!hash) return null;
+  // Función para obtener el recurso desde el path
+  const getResourceFromPath = (data: Resource[]) => {
+    const path = window.location.pathname.substring(1); // Remove leading slash
+    if (!path) return null;
 
     // Primero intentamos buscar por slug amigable
-    let res = data.find(r => r.slug === hash);
+    let res = data.find(r => r.slug === path);
 
     // Si no lo encuentra, por compatibilidad con enlaces antiguos, buscamos por ID de Airtable
-    if (!res && hash.startsWith('resource-')) {
-      const id = hash.replace('resource-', '');
+    if (!res && path.startsWith('resource-')) {
+      const id = path.replace('resource-', '');
       res = data.find(r => r.id === id);
     }
 
@@ -86,7 +86,7 @@ const App: React.FC = () => {
         const data = await fetchResources();
         setResources(data);
 
-        const res = getResourceFromHash(data);
+        const res = getResourceFromPath(data);
         if (res) {
           setSelectedResource(res);
           setView('detail');
@@ -99,26 +99,43 @@ const App: React.FC = () => {
     };
     loadData();
 
-    const handleHashChange = () => {
-      const hash = window.location.hash;
-      if (!hash || hash === '#') {
+    const handlePopState = () => {
+      const res = getResourceFromPath(resources); // Use current resources state? No, closure stale.
+      // Actually resources might be empty if not loaded yet, 
+      // but this listener runs on user nav.
+      // We need to access the LATEST resources. 
+      // Ideally we'd use a ref or check if we are duplicating logic.
+      // For simplicity in this structure:
+
+      // Let's reload the resource from the current 'resources' in state implies we need 'resources' in dependency array
+      // but re-binding listener on every resource change is fine but expensive? No, it's fine.
+    };
+  }, []); // We need to fix the dependency for handlePopState below.
+
+  // Separate effect for history handling to access current resources
+  useEffect(() => {
+    const handlePopState = () => {
+      const path = window.location.pathname.substring(1);
+      if (!path) {
         setView('grid');
         setSelectedResource(null);
       } else {
-        setResources(prev => {
-          const res = getResourceFromHash(prev);
-          if (res) {
-            setSelectedResource(res);
-            setView('detail');
-          }
-          return prev;
-        });
+        const res = getResourceFromPath(resources);
+        if (res) {
+          setSelectedResource(res);
+          setView('detail');
+        } else if (resources.length > 0) {
+          // Path exists but resource not found in loaded resources
+          // Maybe invalid URL, go to grid?
+          setView('grid');
+          setSelectedResource(null);
+        }
       }
     };
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []);
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [resources]);
 
   const categories = useMemo(() => {
     const rawCategories = resources.map(r => r.categoria.toUpperCase());
@@ -136,17 +153,17 @@ const App: React.FC = () => {
     });
   }, [resources, searchTerm, activeCategory]);
 
+
   const handleResourceClick = (resource: Resource) => {
     setSelectedResource(resource);
     setView('detail');
-    // Ahora usamos el slug en lugar del ID crudo
-    window.location.hash = resource.slug;
+    window.history.pushState(null, '', `/${resource.slug}`);
   };
 
   const handleBack = () => {
     setView('grid');
     setSelectedResource(null);
-    window.location.hash = '';
+    window.history.pushState(null, '', '/');
   };
 
   // Determinamos qué logo mostrar basándonos en la vista actual
