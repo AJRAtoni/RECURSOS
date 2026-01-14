@@ -13,6 +13,7 @@ export interface Resource {
   casosUso?: string;
   noUsar?: string;
   veredicto?: string;
+  caso?: string;
 }
 
 export interface AirtableRecord {
@@ -37,6 +38,7 @@ export interface AirtableRecord {
     "Casos de uso"?: string;
     "No Usarla"?: string;
     AJRA?: string;
+    Caso?: string;
   };
 }
 

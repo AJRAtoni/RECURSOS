@@ -64,6 +64,7 @@ export const fetchResources = async (): Promise<Resource[]> => {
         casosUso: record.fields['Casos de uso'] || '',
         noUsar: record.fields['No Usarla'] || '',
         veredicto: record.fields.AJRA || '',
+        caso: record.fields.Caso || '',
       };
     });
   } catch (error) {

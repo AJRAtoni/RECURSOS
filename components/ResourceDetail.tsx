@@ -58,7 +58,7 @@ export const ResourceDetail: React.FC<ResourceDetailProps> = ({ resource, allRes
   }, [videoId]);
 
   const shareUrl = window.location.href;
-  const shareText = `Mira este recurso increíble: ${resource.nombre}`;
+  const shareText = `Este recurso puede ahorrarte mucho tiempo: ${resource.nombre}`;
 
   const handleCopyLink = () => {
     navigator.clipboard.writeText(shareUrl);
@@ -98,7 +98,10 @@ export const ResourceDetail: React.FC<ResourceDetailProps> = ({ resource, allRes
             href={resource.enlace}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-full py-4 px-6 text-center bg-violet-600 hover:bg-violet-700 text-white rounded-2xl font-bold shadow-lg shadow-violet-500/30 transition-all transform hover:-translate-y-1 active:scale-95"
+            className="flex items-center justify-center w-full py-4 px-6 text-center text-white rounded-2xl font-bold shadow-lg shadow-violet-500/30 transition-all transform hover:-translate-y-1 hover:brightness-110 active:scale-95"
+            style={{
+              background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 75%, #e914fb 100%)',
+            }}
           >
             <span className="text-base md:text-lg">Abrir {resource.nombre}</span>
             <i className="fas fa-external-link-alt ml-3 text-sm"></i>
@@ -220,22 +223,7 @@ export const ResourceDetail: React.FC<ResourceDetailProps> = ({ resource, allRes
             </div>
           </div>
 
-          {/* Bloque EL VEREDICTO DE AJRA */}
-          {resource.veredicto && (
-            <div className="bg-white rounded-[2.5rem] p-8 md:p-10 shadow-xl border border-slate-100">
-              <div className="flex items-center mb-6">
-                <div className="w-12 h-12 rounded-xl overflow-hidden mr-4 shadow-lg shadow-slate-200">
-                  <img src="https://ajra.es/images/AJRA.webp" alt="AJRA Avatar" className="w-full h-full object-cover" />
-                </div>
-                <h3 className="font-bold text-xl text-slate-900 uppercase tracking-widest">En Palabras de AJRA</h3>
-              </div>
-              <div className="prose max-w-none">
-                <p className="text-slate-600 text-base md:text-lg leading-relaxed whitespace-pre-line">
-                  {resource.veredicto}
-                </p>
-              </div>
-            </div>
-          )}
+
 
           {/* Bloques de Casos de Uso y No usara */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -279,6 +267,45 @@ export const ResourceDetail: React.FC<ResourceDetailProps> = ({ resource, allRes
               </div>
             )}
           </div>
+
+          {/* Caso Real AJRA */}
+          {resource.caso && (
+            <div
+              className="relative overflow-hidden rounded-[2.5rem] p-8 md:p-10 shadow-xl shadow-violet-500/20 text-white"
+              style={{
+                background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 75%, #e914fb 100%)',
+              }}
+            >
+              <div className="relative z-10 flex items-center mb-6">
+                <div className="w-10 h-10 bg-white rounded-xl flex items-center justify-center mr-4 shadow-lg shadow-black/10">
+                  <i className="fas fa-briefcase text-violet-600 text-sm"></i>
+                </div>
+                <h3 className="font-bold text-xl text-white uppercase tracking-widest">Caso Real</h3>
+              </div>
+              <div className="relative z-10 prose prose-invert max-w-none">
+                <p className="text-violet-50 text-base md:text-lg leading-relaxed whitespace-pre-line font-medium">
+                  {resource.caso}
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* Bloque EL VEREDICTO DE AJRA */}
+          {resource.veredicto && (
+            <div className="bg-white rounded-[2.5rem] p-8 md:p-10 shadow-xl border border-slate-100">
+              <div className="flex items-center mb-6">
+                <div className="w-12 h-12 rounded-xl overflow-hidden mr-4 shadow-lg shadow-slate-200">
+                  <img src="https://ajra.es/images/AJRA.webp" alt="AJRA Avatar" className="w-full h-full object-cover" />
+                </div>
+                <h3 className="font-bold text-xl text-slate-900 uppercase tracking-widest">En Palabras de AJRA</h3>
+              </div>
+              <div className="prose max-w-none">
+                <p className="text-slate-600 text-base md:text-lg leading-relaxed whitespace-pre-line">
+                  {resource.veredicto}
+                </p>
+              </div>
+            </div>
+          )}
 
           {/* Video Análisis */}
           {videoId && (

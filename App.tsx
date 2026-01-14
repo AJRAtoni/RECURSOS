@@ -194,9 +194,12 @@ const App: React.FC = () => {
                   key={cat}
                   onClick={() => setActiveCategory(cat)}
                   className={`px-4 py-2 rounded-xl text-[10px] font-black transition-all uppercase tracking-widest ${activeCategory === cat
-                    ? 'bg-violet-600 text-white shadow-lg'
+                    ? 'text-white shadow-lg shadow-violet-500/30'
                     : 'bg-white text-gray-500 border border-gray-100 hover:border-violet-200'
                     }`}
+                  style={activeCategory === cat ? {
+                    background: 'linear-gradient(135deg, #6a11cb 0%, #8c1fd1 35%, #b027d6 75%, #e914fb 100%)',
+                  } : {}}
                 >
                   {cat}
                 </button>
